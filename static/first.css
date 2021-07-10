@@ -6,11 +6,7 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-<<<<<<< HEAD
 	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Users/metellus1414/renderbenders/images/fourelements.jpg);
-=======
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Users/metellus1414/renderbenders/imagesimages/fourelements.jpg);
->>>>>>> 4452a5228d0002f64e5df9786e299604137bbd1f
 	background-position: center;
 	background-size: cover;
 	position: relative;
