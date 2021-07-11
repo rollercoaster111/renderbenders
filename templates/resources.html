@@ -24,38 +24,53 @@
 			</div>
 		</nav>
         <h1>Process, Resources Used and Sponsors</h1>
-        <p>Similar to the team pictured in this background, our team is formed from a collection of people from various backgrounds<br> and upbringings. Take a moment to read more about each of the members.</p><br><br><br><br>
+        <p>Our team did not have a straightforward path from ideation to execution, and the documentation of our path towards our final renders is detailed below. A special thank you goes out to the sponsors of this program for making this project possible.</p><br><br><br><br>
 	</section>
-
 	<!----Resources---->
 	<section class="resources">
-	<h2>Python</h2>
-	<p>As a team, our first plan to render a carbon nanotube was to A plethora of resources provided to us by our sponsors were instrumental in the completion of this hackathon project, a few of which will be discussed in the following section.</p>
+		<h2>Python</h2>
+		<p>
+			As a team, our first plan to render a carbon nanotube was to use python. Using some CASTEP code, an image was formed which accounted for the carbon atom positions within the structure. However, a problem came into view: the connections between the carbon atoms were missing. Unfortunately, once we did start coding for the connections, it was discovered that the process of doing so would take a very long time. For this reason, we began to seek out alternative methods to render a carbon nanotube.
+		</p>
 	</section>
 	<section class="blender">
 		<h2>Blender</h2>
-		<p>When looking to undertake the task of modeling a carbon nanotube, our first idea was to model it using Python code. Unfortunately, when our code appeared to be incomplete in multiple areas, we turned to alternative modeling processes. Our next approach involved Blender, which is a free and open source 3D modeling software. While Blender does use Python to aid in the modeling processes, most of what the user has to do is model, render and animate using the basic CAD tools available to them. Using Blender, our team was able to create solid renders of the carbon nanotube structure, and the animations constructed within the software appeared to be thorough in their captures of the model.</p>
+		<p>
+			When looking to undertake the task of modeling a carbon nanotube, our first idea was to model it using Python code. Unfortunately, when our code appeared to be incomplete in multiple areas, we turned to alternative modeling processes. Our next approach involved Blender, which is a free and open source 3D modeling software. While Blender does use Python to aid in the modeling processes, most of what the user has to do is model, render and animate using the basic CAD tools available to them. Using Blender, our team was able to create solid renders of the carbon nanotube structure, and the animations constructed within the software appeared to be thorough in their captures of the model.
+		</p>
 	</section>
 	<section class="cluster">
 		<h2>Using Cloudycluster in the Project</h2>
 		<p>
 			CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender.
 		</p>
-		<img src="">
+		<br>
+		<img src="images/fig_1.jpg" height="300" width="500">
+		<figcaption>Figure 3: Overview of RenderBender.</figcaption>
+		<br>
 		<p>
-			Figure 1 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.).
+			Figure 3 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.).
 		</p>
-		<img src="">
+		<br>
+		<img src="images/fig_2.jpg" height="300" width="500">
+		<figcaption>Figure 4: Example of the script specifying how a job should be executed.</figcaption>
+		<br>
 		<p>
-			Figure 2 shows one of the configurations (an example of the script) for specifying how a job should be executed. RenderBender uses Torque/Maui HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##PBS -l nodes=2:ppn=2”; RenderBender uses Slurm HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##SBATCH -N 2” and “##SBATCH --ntasks-per-node=2”. RenderBender uses the openMPI by uncommenting “#module add openmpi/3.0.0”.
+			Figure 4 shows one of the configurations (an example of the script) for specifying how a job should be executed. RenderBender uses Torque/Maui HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##PBS -l nodes=2:ppn=2”; RenderBender uses Slurm HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##SBATCH -N 2” and “##SBATCH --ntasks-per-node=2”. RenderBender uses the openMPI by uncommenting “#module add openmpi/3.0.0”.
 		</p>
 		<p>
-			In RenderBender, when users submit their jobs (e.g., animating the render), the jobs are delivered to the scheduler. The scheduler will split the jobs into tasks and distribute the tasks to the requested nodes from the system. Then the nodes run the tasks assigned to them and generate the result. The result will be saved in the location specified in the above script. Figure 3 shows the framework of job scheduling in RenderBender.
+			In RenderBender, when users submit their jobs (e.g., animating the render), the jobs are delivered to the scheduler. The scheduler will split the jobs into tasks and distribute the tasks to the requested nodes from the system. Then the nodes run the tasks assigned to them and generate the result. The result will be saved in the location specified in the above script. Figure 5 shows the framework of job scheduling in RenderBender.
 		</p>
-		<img src="">
+		<br>
+		<img src="images/fig_3.jpg" height="300" width="500">
+		<figcaption>Figure 5: Job framework scheduling in RenderBender.</figcaption>
 	</section>
 	<!----Sponsors---->
 	<section class="sponsors">
+		<h2>Thank you to Our Sponsors</h2>
+		<p>
+			We would like to thank Intel, Omnibond and Google for sponsoring this HPC Hackathon. It was a privilege to use the products given to us in an effort to complete our project and solidify our deliverables. A special thanks also goes to the Texas Advanced Computing Center, the Science Gateways Community Institute, and the National Science Foundation. Without the support of these organizations, there would be no way for our project to get off the ground and rolling. Thank you for your support each and every step of the way. 
+		</p>
 	</section>
 	
 	<!---Footer--->
