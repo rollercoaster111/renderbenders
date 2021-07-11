@@ -4,7 +4,7 @@ The importance of rendering three-dimensional objects cannot be understated. Dis
 # Dataset
 The data file which our team is looking at is linked in the website here: https://archive.ics.uci.edu/ml/datasets/Carbon+Nanotubes.
 
-# Use CloudCluster in the Project
+# Use CloudyCluster in the Project
 
 
 # Research Findings
