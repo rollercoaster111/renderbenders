@@ -220,10 +220,45 @@ p{
 	text-align: center;
 	color: #fff;
 }
-
-
-
-
+.subheader h1{
+	margin-top: 100px;
+}
+.meet-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.member1{
+	padding: 30px 2px;
+	float: left;
+}
+.member1 img{
+	height: 90%;
+	width: 50%;
+	float: right;
+}
+.member1 h1{
+	padding-top: 0;
+}
+.member1 p{
+	padding: 10px 0 25px;
+}
+.member2{
+	padding: 30px 2px;
+	float: left;
+}
+.member2 img{
+	height: 90%;
+	width: 50%;
+	float: left;
+}
+.member2 h1{
+	padding-top: 0;
+}
+.member2 p{
+	padding: 10px 0 25px;
+}
 
 
 
