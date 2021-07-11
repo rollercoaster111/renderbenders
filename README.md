@@ -10,6 +10,7 @@ The data file which our team is looking at is linked in the website here: https:
 CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds~\cite{}. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender. 
 
 ![Render Benders Team Background.](/RenderBenderOverview.jpg "Hackathon Team Background - PEARC21.")
+
 Fig. 1: The overview of RenderBender.
 
 Figure 1 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.). 
