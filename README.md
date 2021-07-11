@@ -10,7 +10,7 @@ The data file which our team is looking at is linked in the website here: https:
 CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds~\cite{}. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender. 
 
 <p align="center">
-![Render Benders Team Background.](/RenderBenderOverview.jpg "Hackathon Team Background - PEARC21.")
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/RenderBenderOverview.jpg">
 </p>
 
 Fig. 1: The overview of RenderBender.
