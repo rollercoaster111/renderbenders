@@ -329,9 +329,16 @@ p{
 .resources{
 	width: 80%;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 	padding-top: 80px;
 	padding-bottom: 50px;
+	color: #fff;
+}
+.resources h2{
+	padding-left: 20px;
+}
+.resources p{
+	padding-left: 20px;
 }
 .subheader2{
 	height 50vh;
@@ -341,10 +348,21 @@ p{
 	background-size: cover;
 	text-align: center;
 	color: #fff;
-
 }
-
-
+.blender{
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+.blender h2{
+	padding-left: 20px;
+}
+.blender p{
+	padding-left: 20px;
+}
 
 
 
