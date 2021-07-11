@@ -363,10 +363,42 @@ p{
 .blender p{
 	padding-left: 20px;
 }
-
-
-
-
+.cluster{
+	width: 80%;
+	margin: auto;
+	text-align:;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+.cluster h2{
+	padding-left: 20px;
+}
+.cluster p{
+	padding-left: 20px;
+}
+.cluster img{
+	padding-left: 80px;
+}
+.cluster figcaption{
+	text-align: center;
+	font-style: italic;
+	font-weight: 50;
+}
+.sponsors{
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+.sponsors h2{
+	padding-left: 20px;
+}
+.sponsors p{
+	padding-left: 20px;
+}
 
 
 
