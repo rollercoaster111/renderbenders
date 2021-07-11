@@ -5,13 +5,8 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-<<<<<<< HEAD
-	background-image: url('fourelements.jpg') no-repeat center center fixed;
-=======
 	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Chris_Metellus.jpg);
->>>>>>> 14558d3f4c86e41819d535e96cf4226647f6ba99
 	background-position: center;
 	background-size: cover;
 	position: relative;
 }
-
