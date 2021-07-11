@@ -399,9 +399,63 @@ p{
 .sponsors p{
 	padding-left: 20px;
 }
-
-
-
+.subheader3{
+	height 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/CNT_2.jpeg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.pics{
+	width: 80%;
+	text-align: center;
+	color: #fff;
+}
+.pics
+.render-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: center;
+	overflow: hidden;
+}
+.render-col img{
+	display: block;
+}
+.features figcaption{
+	color: #fff;
+	font-style: italic;
+}
+.vids{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;		
+}
+.vids h2{
+	padding-left: 20px;
+}
+.vids p{
+	padding-left: 20px;
+}
+.input{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #fff;	
+}
+.input h2{
+	padding-left: 20px;
+}
+.input p{
+	padding-left: 20px;
+}
 
 
 
