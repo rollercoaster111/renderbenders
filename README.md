@@ -11,7 +11,7 @@ The importance of rendering three-dimensional objects cannot be understated. Dis
 The data file which our team is looking at is linked in the website here: https://archive.ics.uci.edu/ml/datasets/Carbon+Nanotubes.
 
 # Use CloudyCluster in the Project
-CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds~\cite{}. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender. 
+CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender. 
 
 <p align="center">
   <img src="https://github.com/rollercoaster111/renderbenders/blob/main/RenderBenderOverview.jpg">
@@ -48,3 +48,5 @@ The articles depicting the different research findings are linked here: https://
 
 
 The software programs our team is using to visualize the carbon nanotubes and their orientations are Blender and CASTEP, and we fully intend to use CloudyCluster to render our models faster and demonstrate the efficiency of our models. 
+
+
