@@ -17,7 +17,9 @@ Fig. 1: The overview of RenderBender.
 
 Figure 1 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.). 
 
-![Render Benders Team Background.](/Script4RunJobs.jpg "Hackathon Team Background - PEARC21.")
+<p align="center">
+https://github.com/rollercoaster111/renderbenders/blob/main/Script4RunJobs.jpg
+</p>
 
 Fig. 2: An example of the script for specifying how a job should be executed.
 
