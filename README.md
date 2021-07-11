@@ -43,6 +43,8 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
   Fig. 3: The framework of job scheduling in RenderBender.
 </p>
 
+# Experimental Results
+
 # Research Findings
 The articles depicting the different research findings are linked here: https://interestingengineering.com/nanofiber-membrane-filters-999-of-salt-from-seawater-within-minutes, https://interestingengineering.com/new-porous-yet-sturdy-mat-can-adsorb-25-times-its-weight
 
