@@ -23,7 +23,9 @@ Figure 1 shows the overview of RenderBender. The Utility layer shows the control
   <img src="https://github.com/rollercoaster111/renderbenders/blob/main/Script4RunJobs.jpg">
 </p>
 
-Fig. 2: An example of the script for specifying how a job should be executed.
+<p align="center">
+  Fig. 2: An example of the script for specifying how a job should be executed.
+</p>
 
 Figure 2 shows one of the configurations (an example of the script) for specifying how a job should be executed. RenderBender uses Torque/Maui HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##PBS -l nodes=2:ppn=2”; RenderBender uses Slurm  HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##SBATCH -N 2” and “##SBATCH --ntasks-per-node=2”. RenderBender uses the openMPI by uncommenting “#module add openmpi/3.0.0”.
 
