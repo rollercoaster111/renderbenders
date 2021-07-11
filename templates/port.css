@@ -366,7 +366,7 @@ p{
 .cluster{
 	width: 80%;
 	margin: auto;
-	text-align:;
+	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 50px;
 	color: #fff;
@@ -378,7 +378,7 @@ p{
 	padding-left: 20px;
 }
 .cluster img{
-	padding-left: 80px;
+	position: center;
 }
 .cluster figcaption{
 	text-align: center;
