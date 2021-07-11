@@ -221,7 +221,7 @@ p{
 	color: #fff;
 }
 .subheader h1{
-	margin-top: 100px;
+	margin-top: 25px;
 }
 .meet-us{
 	width: 80%;
@@ -243,6 +243,7 @@ p{
 }
 .member1 p{
 	padding: 10px 0 25px;
+	padding-right: 0px;
 }
 .member2{
 	padding: 30px 2px;
@@ -259,10 +260,72 @@ p{
 .member2 p{
 	padding: 10px 0 25px;
 }
-
-
-
-
+.member3{
+	padding: 30px 2px;
+	float: left;
+}
+.member3 img{
+	height: 90%;
+	width: 420%;
+	float: right;
+}
+.member3 h1{
+	padding-top: 0;
+}
+.member3 p{
+	padding: 10px 0 25px;
+	padding-right: 125px;
+}
+.member4{
+	padding: 30px 2px;
+	float: left;
+}
+.member4 img{
+	height: 90%;
+	width: 200%;
+	float: left;
+}
+.member4 h1{
+	padding-top: 0;
+	padding-left: 125px;
+}
+.member4 p{
+	padding: 10px 0 25px;
+	padding-left: 125px;
+}
+.member5{
+	padding: 30px 2px;
+	float: left;
+}
+.member5 img{
+	height: 90%;
+	width: 100%;
+	float: right;
+}
+.member5 h1{
+	padding-top: 0;
+}
+.member5 p{
+	padding: 10px 0 25px;
+	padding-right: 25px;
+}
+.member6{
+	padding: 30px 2px;
+	float: left;
+}
+.member6 img{
+	height: 100%;
+	width: 300%;
+	float: left;
+}
+.member6 h1{
+	padding-top: 0;
+	padding-left: 125px;
+}
+.member6 p{
+	padding: 10px 0 25px;
+	padding-left: 125px;
+}
 
 
 
