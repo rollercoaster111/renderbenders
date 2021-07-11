@@ -23,16 +23,36 @@
 				</ul>
 			</div>
 		</nav>
-        <h1>Resouces Used and Sponsors</h1>
+        <h1>Process, Resources Used and Sponsors</h1>
         <p>Similar to the team pictured in this background, our team is formed from a collection of people from various backgrounds<br> and upbringings. Take a moment to read more about each of the members.</p><br><br><br><br>
 	</section>
 
 	<!----Resources---->
 	<section class="resources">
-	<h1>Resources</h1>
-	<p>A plethora of resources provided to us by our sponsors were instrumental in the completion of this hackathon project, a few of which will be discussed in the following section.</p>
-	<br>
-	<br>
+	<h2>Python</h2>
+	<p>As a team, our first plan to render a carbon nanotube was to A plethora of resources provided to us by our sponsors were instrumental in the completion of this hackathon project, a few of which will be discussed in the following section.</p>
+	</section>
+	<section class="blender">
+		<h2>Blender</h2>
+		<p>When looking to undertake the task of modeling a carbon nanotube, our first idea was to model it using Python code. Unfortunately, when our code appeared to be incomplete in multiple areas, we turned to alternative modeling processes. Our next approach involved Blender, which is a free and open source 3D modeling software. While Blender does use Python to aid in the modeling processes, most of what the user has to do is model, render and animate using the basic CAD tools available to them. Using Blender, our team was able to create solid renders of the carbon nanotube structure, and the animations constructed within the software appeared to be thorough in their captures of the model.</p>
+	</section>
+	<section class="cluster">
+		<h2>Using Cloudycluster in the Project</h2>
+		<p>
+			CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender.
+		</p>
+		<img src="">
+		<p>
+			Figure 1 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.).
+		</p>
+		<img src="">
+		<p>
+			Figure 2 shows one of the configurations (an example of the script) for specifying how a job should be executed. RenderBender uses Torque/Maui HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##PBS -l nodes=2:ppn=2”; RenderBender uses Slurm HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##SBATCH -N 2” and “##SBATCH --ntasks-per-node=2”. RenderBender uses the openMPI by uncommenting “#module add openmpi/3.0.0”.
+		</p>
+		<p>
+			In RenderBender, when users submit their jobs (e.g., animating the render), the jobs are delivered to the scheduler. The scheduler will split the jobs into tasks and distribute the tasks to the requested nodes from the system. Then the nodes run the tasks assigned to them and generate the result. The result will be saved in the location specified in the above script. Figure 3 shows the framework of job scheduling in RenderBender.
+		</p>
+		<img src="">
 	</section>
 	<!----Sponsors---->
 	<section class="sponsors">
