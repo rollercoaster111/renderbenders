@@ -14,8 +14,10 @@ CloudyCluster supports the dynamic provisioning and de-provisioning of HPC envir
 Fig. 1: The overview of RenderBender.
 
 Figure 1 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.). 
- 
+
+![Render Benders Team Background.](/Script4RunJobs.jpg "Hackathon Team Background - PEARC21.")
 Fig. 2: An example of the script for specifying how a job should be executed.
+
 Figure 2 shows one of the configurations (an example of the script) for specifying how a job should be executed. RenderBender uses Torque/Maui HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##PBS -l nodes=2:ppn=2”; RenderBender uses Slurm  HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##SBATCH -N 2” and “##SBATCH --ntasks-per-node=2”. RenderBender uses the openMPI by uncommenting “#module add openmpi/3.0.0”.
 In RenderBender, when users submit their jobs (e.g., animating the render), the jobs are delivered to the scheduler. The scheduler will split the jobs into tasks and distribute the tasks to the requested nodes from the system. Then the nodes run the tasks assigned to them and generate the result. The result will be saved in the location specified in the above script.
 
