@@ -51,7 +51,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 # Experimental Results
 
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1-blue.png">
+  <img width="500" height="230" src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1-blue.png">
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1.png">
+  <img width="600" height="280" src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1.png">
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/render1.png">
+  <img width="600" height="280" src="https://github.com/rollercoaster111/renderbenders/blob/main/render1.png">
 </p>
 
 <p align="center">
@@ -75,7 +75,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/render2.png">
+  <img width="600" height="280" src="https://github.com/rollercoaster111/renderbenders/blob/main/render2.png">
 </p>
 
 <p align="center">
@@ -83,7 +83,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/render3.png">
+  <img width="600" height="280" src="https://github.com/rollercoaster111/renderbenders/blob/main/render3.png">
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/templates/images/0010.png">
+  <img width="600" height="280" src="https://github.com/rollercoaster111/renderbenders/blob/main/templates/images/0010.png">
 </p>
 
 <p align="center">
