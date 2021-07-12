@@ -85,6 +85,8 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
   Fig. 8:
 </p>
 
+We also recorded the demonstration of some experiments, and we posted it to YouTube. Here is the link of one of our demonstrations: https://youtu.be/2nILAXKG-QU.
+
 # Research Findings
 The articles depicting the different research findings are linked here: https://interestingengineering.com/nanofiber-membrane-filters-999-of-salt-from-seawater-within-minutes, https://interestingengineering.com/new-porous-yet-sturdy-mat-can-adsorb-25-times-its-weight
 
