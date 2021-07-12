@@ -45,6 +45,46 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 
 # Experimental Results
 
+<p align="center">
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1-blue.png">
+</p>
+
+<p align="center">
+  Fig. 4:
+</p>
+
+<p align="center">
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1.png">
+</p>
+
+<p align="center">
+  Fig. 4:
+</p>
+
+<p align="center">
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/render1.png">
+</p>
+
+<p align="center">
+  Fig. 4:
+</p>
+
+<p align="center">
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/render2.png">
+</p>
+
+<p align="center">
+  Fig. 4:
+</p>
+
+<p align="center">
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/render3.png">
+</p>
+
+<p align="center">
+  Fig. 4:
+</p>
+
 # Research Findings
 The articles depicting the different research findings are linked here: https://interestingengineering.com/nanofiber-membrane-filters-999-of-salt-from-seawater-within-minutes, https://interestingengineering.com/new-porous-yet-sturdy-mat-can-adsorb-25-times-its-weight
 
