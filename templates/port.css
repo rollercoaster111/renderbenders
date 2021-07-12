@@ -236,7 +236,7 @@ p{
 }
 .member1 img{
 	height: 100%;
-	width: 110%;
+	width: 120%;
 	float: right;
 }
 .member1 h1{
@@ -269,7 +269,7 @@ p{
 }
 .member3 img{
 	height: 90%;
-	width: 300%;
+	width: 220%;
 	float: right;
 }
 .member3 h1{
@@ -285,16 +285,16 @@ p{
 }
 .member4 img{
 	height: 100%;
-	width: 175%;
+	width: 375%;
 	float: left;
 }
 .member4 h1{
 	padding-top: 0;
-	padding-left: 75px;
+	padding-left: 125px;
 }
 .member4 p{
 	padding: 10px 0 25px;
-	padding-left: 75px;
+	padding-left: 125px;
 }
 .member5{
 	padding: 30px 2px;
@@ -302,7 +302,7 @@ p{
 }
 .member5 img{
 	height: 100%;
-	width: 80%;
+	width: 90%;
 	float: right;
 }
 .member5 h1{
