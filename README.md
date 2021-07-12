@@ -51,7 +51,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 # Experimental Results
 
 <p align="center">
-  <img width="500" height="230" src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1-blue.png">
+  <img width="600" height="245" src="https://github.com/rollercoaster111/renderbenders/blob/main/cnt1-blue.png">
 </p>
 
 <p align="center">
