@@ -18,7 +18,7 @@ CloudyCluster supports the dynamic provisioning and de-provisioning of HPC envir
 </p>
 
 <p align="center">
-  Fig. 1: The overview of RenderBender.
+  Fig. 1: The overview of RenderBender
 </p>
 
 Figure 1 shows the overview of RenderBender. The Utility layer shows the control node, login instance, scheduler instance and the GCSBucket. The orangefs layer shows the OrangeFS instance. Torque and Slurm are job schedulers used to start, hold, monitor and cancel jobs submitted via the CloudyCluster interface. CloudyCluster Queue (CCQ) is a meta-scheduler provided with CloudyCluster that handles the instance selection and scaling the passes off the jobs to the configured scheduler (e.g., Torque or Slurm). A script is a set of instructions that specify how a job should be executed. RenderBender uses the script (e.g., Torque script, Slurm script) to specify how a job should be executed (including the number of requested nodes, the number of tasks on each node, etc.). 
@@ -28,7 +28,7 @@ Figure 1 shows the overview of RenderBender. The Utility layer shows the control
 </p>
 
 <p align="center">
-  Fig. 2: An example of the script for specifying how a job should be executed.
+  Fig. 2: An example of the script for specifying how a job should be executed
 </p>
 
 Figure 2 shows one of the configurations (an example of the script) for specifying how a job should be executed. RenderBender uses Torque/Maui HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##PBS -l nodes=2:ppn=2”; RenderBender uses Slurm  HPC Scheduler and requests two nodes from the system (each node is assigned two tasks) by uncommenting “##SBATCH -N 2” and “##SBATCH --ntasks-per-node=2”. RenderBender uses the openMPI by uncommenting “#module add openmpi/3.0.0”.
@@ -40,7 +40,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 3: The framework of job scheduling in RenderBender.
+  Fig. 3: The framework of job scheduling in RenderBender
 </p>
 
 # Experimental Results
@@ -50,7 +50,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 4: Carbon nanotube
+  Fig. 4: Carbon nanotubes
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 6:
+  Fig. 6: Render the Blender files
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 7:
+  Fig. 7: Render the Blender files
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 8:
+  Fig. 8: Render the Blender files
 </p>
 
 We also recorded the demonstration of some experiments, and we posted it to YouTube. Here is the link of one of our demonstrations: https://youtu.be/2nILAXKG-QU.
