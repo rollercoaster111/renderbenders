@@ -34,7 +34,7 @@ Figure 2 shows one of the configurations (an example of the script) for specifyi
 
 In RenderBender, when users submit their jobs (e.g., animating the render), the jobs are delivered to the scheduler. The scheduler will split the jobs into tasks and distribute the tasks to the requested nodes from the system. Then the nodes run the tasks assigned to them and generate the result. The result will be saved in the location specified in the above script. Figure 3 shows the framework of job scheduling in RenderBender.
 <p align="center">
-  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/JobScheduling.jpg">
+  <img width="700" height="350" src="https://github.com/rollercoaster111/renderbenders/blob/main/JobScheduling.jpg">
 </p>
 
 <p align="center">
