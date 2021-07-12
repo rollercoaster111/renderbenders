@@ -10,6 +10,13 @@ The importance of rendering three-dimensional objects cannot be understated. Dis
 # Dataset
 The data file which our team is looking at is linked in the website here: https://archive.ics.uci.edu/ml/datasets/Carbon+Nanotubes.
 
+## Download and Installation
+
+To begin using this template, choose one of the following options to get started:
+
+- Clone the repo: `git clone https://github.com/rollercoaster111/renderbenders.git`
+- [Fork, Clone, or Download on GitHub](https://github.com/rollercoaster111/renderbenders)
+
 # Use CloudyCluster in the Project
 CloudyCluster supports the dynamic provisioning and de-provisioning of HPC environment within commercial clouds. The provisioned HPC cluster can include shared filesystems, NAT instance, compute nodes, parallel filesystem, login node, and schedulers, and can solve storage issues for Big Data and Data Intensive applications. To improve the scalability of our RenderBender system, we deployed our system in CloudyCluster. Below is the overview of RenderBender. 
 
