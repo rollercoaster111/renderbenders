@@ -3,7 +3,7 @@
 The importance of rendering three-dimensional objects cannot be understated. Displaying an animated version of a dataset can open a door to the public to better comprehend the research being done, and data visualization has often been the difference between research teams which have received funding and which ones have not. Our team has chosen to direct our efforts towards rendering carbon nanotubes, which have been highlighted as a nanomaterial structure due to their high tensile strength and flexibility. Furthermore, in recent years, there have been multiple research advances highlighting the use of oriented carbon nanotubes for water filtration and oil adsorption from water. This is where Team Render Benders comes into action. Our team aims to provide accurate renders of the carbon nanotubes, first of one, and then of an orientation similar to those within the research advances mentioned above.
 <!--- ![Render Benders Team Background.](/Team_Background.jpg "Hackathon Team Background - PEARC21.") -->
 <p align="center">
-  <img width="180" height="100" src="https://github.com/rollercoaster111/renderbenders/blob/main/Team_Background.jpg">
+  <img width="1000" height="500" src="https://github.com/rollercoaster111/renderbenders/blob/main/Team_Background.jpg">
 </p>
 
 
