@@ -58,7 +58,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 4:
+  Fig. 5:
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 4:
+  Fig. 6:
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 4:
+  Fig. 7:
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 4:
+  Fig. 8:
 </p>
 
 # Research Findings
