@@ -459,7 +459,10 @@ p{
 .input p{
 	padding-left: 20px;
 }
-
+.input figcaption{
+	color: #fff;
+	font-style: italic;
+}
 
 
 
