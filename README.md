@@ -50,7 +50,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 4:
+  Fig. 4: Carbon nanotube
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
 </p>
 
 <p align="center">
-  Fig. 5:
+  Fig. 5: Carbon nanotube
 </p>
 
 <p align="center">
