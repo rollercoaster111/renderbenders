@@ -85,6 +85,14 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
   Fig. 8: Render the Blender files
 </p>
 
+<p align="center">
+  <img src="https://github.com/rollercoaster111/renderbenders/blob/main/templates/images/0010.png">
+</p>
+
+<p align="center">
+  Fig. 9: Render the Blender files
+</p>
+
 We also recorded the demonstration of some experiments, and we posted it to YouTube. Here is the link of one of our demonstrations: https://youtu.be/2nILAXKG-QU.
 
 # Research Findings
