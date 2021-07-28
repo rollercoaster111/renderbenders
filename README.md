@@ -98,7 +98,7 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
   Fig. 9: Render the Blender files
 </p>
 
-Here is our final rendering: https://github.com/rollercoaster111/renderbenders/Final_Render_v=Cs8UVRE7dgE.mp4.
+Here is our final rendering: Final_Render_v=Cs8UVRE7dgE.mp4 or see it at https://www.youtube.com/watch?v=Cs8UVRE7dgE
 
 # Research Findings
 The articles depicting the different research findings are linked here: https://interestingengineering.com/nanofiber-membrane-filters-999-of-salt-from-seawater-within-minutes, https://interestingengineering.com/new-porous-yet-sturdy-mat-can-adsorb-25-times-its-weight
