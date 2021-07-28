@@ -98,12 +98,13 @@ In RenderBender, when users submit their jobs (e.g., animating the render), the 
   Fig. 9: Render the Blender files
 </p>
 
-We also recorded the demonstration of some experiments, and we posted it to YouTube. Here is the link of one of our demonstrations: https://youtu.be/2nILAXKG-QU.
+Here is our final rendering: https://github.com/rollercoaster111/renderbenders/Final_Render_v=Cs8UVRE7dgE.mp4.
 
 # Research Findings
 The articles depicting the different research findings are linked here: https://interestingengineering.com/nanofiber-membrane-filters-999-of-salt-from-seawater-within-minutes, https://interestingengineering.com/new-porous-yet-sturdy-mat-can-adsorb-25-times-its-weight
 
 
-The software programs our team is using to visualize the carbon nanotubes and their orientations are Blender and CASTEP, and we fully intend to use CloudyCluster to render our models faster and demonstrate the efficiency of our models. 
+We used Blender to design and render the carbon nanotubes.
+The rendering was done on Cloudycluster with a 16 CPU virtual machine.   
 
 
